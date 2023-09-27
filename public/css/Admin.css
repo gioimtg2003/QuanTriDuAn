@@ -1,0 +1,134 @@
+
+body {
+  font-family: "Sirin Stencil", cursive;
+}
+
+input::-webkit-input-placeholder {
+  color: #fff !important;
+}
+
+input:-moz-placeholder {
+  /* Firefox 18- */
+  color: #fff !important;
+}
+
+input::-moz-placeholder {
+  /* Firefox 19+ */
+  color: #fff !important;
+}
+
+input:-ms-input-placeholder {
+  color: #fff !important;
+}
+
+/* Header */
+.large-header {
+  position: relative;
+  width: 100%;
+
+  overflow: hidden;
+  background-size: cover;
+  background-position: center center;
+  z-index: 1;
+}
+
+
+/* Header */
+.main-agileits {
+  width: 30%;
+  margin: 0 auto;
+}
+.form-w3-agile h2 {
+  color: #fff;
+  font-size: 25px;
+  font-weight: 500;
+  text-align: center;
+  margin-bottom: 1em;
+  letter-spacing: 2px;
+}
+.form-w3-agile {
+  background: rgba(4, 4, 4, 0.56);
+  -webkit-box-shadow: 0px 35px 44px -22px rgba(0, 0, 0, 0.72);
+  -moz-box-shadow: 0px 35px 44px -22px rgba(0, 0, 0, 0.72);
+  box-shadow: 0px 35px 44px -22px #1f181b;
+  padding: 60px 40px;
+}
+h1 {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 45px;
+  font-weight: bold;
+  margin: 40px 0;
+  color: #ffffff;
+  letter-spacing: 4px;
+  word-spacing: 4px;
+  font-family: "Sirin Stencil", cursive;
+}
+form {
+  margin: 0 auto;
+  width: 100%;
+}
+.form-sub-w3 {
+  position: relative;
+  margin-bottom: 20px;
+}
+.form-sub-w3 input[type="text"],
+input[type="password"],
+input[type="name"],
+input[type="phone"],
+input[type="email"] {
+  outline: none;
+  font-size: 15px;
+  color: #ffffff;
+  padding: 15px 40px 15px 10px;
+  letter-spacing: 2px;
+  width: 87%;
+  border: none;
+  border: 1px solid #dccbcf;
+
+  margin-bottom: 10px;
+  background: transparent;
+  font-family: "Sirin Stencil", cursive;
+}
+.form-sub-w3 input[type="password"] {
+  outline: none;
+  font-size: 15px;
+  color: #ffffff;
+  padding: 15px 40px 15px 10px;
+  width: 87%;
+  border: none;
+  border: 1px solid #dccbcf;
+
+  margin-bottom: 10px;
+  background: transparent;
+  font-family: "Sirin Stencil", cursive;
+}
+input[type="submit"] {
+  background: #fff;
+  color: #000;
+  outline: none;
+  display: block;
+  margin: 0 auto;
+  border: none;
+  cursor: pointer;
+  padding: 7px 35px;
+  font-size: 16px;
+  margin-top: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-family: "Sirin Stencil", cursive;
+  transition: 0.3s all;
+  -webkit-transition: 0.3s all;
+  -moz-transition: 0.3s all;
+  -o-transition: 0.3s all;
+  -ms-transition: 0.3s all;
+}
+input[type="submit"]:hover {
+  background: #4caf50;
+  color: #ffffff;
+  transition: 0.3s all;
+  -webkit-transition: 0.3s all;
+  -moz-transition: 0.3s all;
+  -o-transition: 0.3s all;
+  -ms-transition: 0.3s all;
+}
