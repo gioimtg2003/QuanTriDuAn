@@ -4,5 +4,6 @@ class Register extends baseController{
     public function __construct(){
         $this->model = $this->loadModel('registerModel');
     }
+    
 }
  ?> 
