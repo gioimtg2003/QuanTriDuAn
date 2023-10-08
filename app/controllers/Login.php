@@ -5,6 +5,5 @@ class Login extends baseController{
         $this->model = $this->loadModel('loginModel');
     } 
 
-    
 }
  ?>
