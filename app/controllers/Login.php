@@ -4,6 +4,7 @@ class Login extends baseController{
     public function __construct(){
         $this->model = $this->loadModel('loginModel');
     } 
+
     public function index(){
         if(isset($_SESSION['user'])){
             echo '<script>alert("Bạn đã đăng nhập"); location.href="/";</script>';
@@ -43,8 +44,5 @@ class Login extends baseController{
         }
 
     }
-
-
-   
 }
  ?>

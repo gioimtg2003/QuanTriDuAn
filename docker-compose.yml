@@ -7,11 +7,11 @@ services:
       dockerfile: ./nginx/Dockerfile
     command: nginx -g "daemon off;"
     ports:
-      - "8080:80"
-    volumes:
-      - .:/var/www/html
-    networks:
-      - web
+      - "80:80"
+    links:
+      - php
+    # networks:
+    #   - web
     
     
   php:
@@ -20,14 +20,12 @@ services:
       context: .
       dockerfile: ./php/Dockerfile
     working_dir: /var/www/html
-    volumes:
-      - .:/var/www/html
-    networks:
-      - web
+    # networks:
+    #   - web
     
-networks:
-  web:
-    driver: bridge
+# networks:
+#   web:
+#     driver: bridge
     
       
     

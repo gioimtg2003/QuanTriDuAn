@@ -61,7 +61,7 @@
           <nav>
             <ul>
               <li><a href="/" title="Trang chủ">Trang chủ</a></li>
-              <li><a href="/About" title="Giới thiệu">Trò chơi</a></li>
+            
               <li><a href="/Menu/page/" title="Thực đơn">Thực đơn</a></li>
               <?php if(isset($_SESSION['user'])){ ?>
               <li class="cart"><a href="/Cart" title="Giỏ hàng">Giỏ hàng</a>
@@ -70,7 +70,6 @@
               <li><a href="/Order" title="Đơn hàng">Đơn hàng</a></li>
               <?php } ?>
               <li><a href="/Branch"  title="Chi nhánh">Chi nhánh</a></li>
-              <li><a href="/Blog"  title="Tin tức">Tin tức</a></li>
             </ul>
           </nav>
         </div>

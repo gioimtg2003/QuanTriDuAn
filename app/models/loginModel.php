@@ -9,6 +9,5 @@ class loginModel extends connectDB{
         $result = $this->connect->query($sql);
         return $result->num_rows === 1 ? $result : false;
     }
-    
 }
  ?>
